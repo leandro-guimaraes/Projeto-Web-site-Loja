@@ -1,0 +1,172 @@
+/* CSS DE DEFINIÇÃO INICIAL: */
+
+body {
+    background: #ddd;
+}
+
+.container {
+    width: 1100px;
+    margin: 0 auto;
+}
+
+
+/* CSS DOS CABEÇALHOS: */
+
+#main-header {
+    background-color: #051644;
+    font-family: 'Oswald', sans-serif;
+    color: white;
+}
+
+#main-header img {
+    margin: 10px;
+}
+
+#links-right {
+    float: right;
+    margin-top: 30px;
+    margin-right: 50px;
+    text-align: center;
+}
+
+#main-header i {
+    margin-right: 10px;
+}
+
+
+/* CSS DO CORPO DA PÁGINA INICIAL: */
+
+.article-product-list {
+    background-color: white;
+    padding: 20px;
+}
+
+.article-header {
+    font-size: 1.25em;
+    font-weight: bold;
+    padding: 10px 0 20px 10px;
+
+}
+
+.product-list-item {
+    margin: 5px;
+}
+
+.product-list-title {
+    font-weight: 100;
+    font-size: 0.9em;
+}
+
+.product-list-price {
+    font-weight: bold;
+}
+
+.article-category-list {
+    background-color: white;
+    padding: 20px;
+
+}
+
+.category-item figcaption {
+    color: white;
+    font-size: 1em;
+    position: absolute;
+    margin: -45px 0 0 8px;
+}
+
+
+/* CSS DOS RODAPÉS: */
+
+#main-footer .container {
+    border-top: 1px solid #ccc;
+    margin-top: 50px;
+}
+
+#main-footer ul {
+    padding: 20px 0 50px;
+}
+
+#footer-links {
+    text-align: center;
+}
+
+#social-medias {
+    float: right;
+    text-align: center;
+}
+
+#social-medias i {
+    transition: all;
+    width: 20px;
+    height: 20px;
+}
+
+#social-medias a:hover {
+    border: 1px solid rgb(23, 23, 160);
+    padding: 5px;
+    border-radius: 50%;
+    background-color: rgb(23, 23, 160);
+    color: white;
+
+}
+
+
+/* CSS DAS PÁGINAS INDIVIDUIAS DOS PRODUTOS: */
+
+.article-product{
+    background-color: white;
+    padding: 20px 20px 70px 20px;
+}
+
+.article-product .article-header {
+    padding: 20px 0;
+}
+
+.article-product .article-header-subtitle {
+    font-size: 0.75em;
+    color: #555;
+    font-weight: 100;
+}
+
+.article-product p {
+    font-size: 0.9em;
+    color: black;
+}
+
+.article-product .product-price {
+    border: 1px solid #051644;
+    padding: 20px;
+    margin-left: 10px;
+    background-color: #051644;
+    color: white;
+    font-size: 30px;
+}
+
+.article-product .seller {
+    border: 1px solid #eee;
+    padding: 20px;
+    margin: 20px 0 0 10px;
+    background-color: #eee;
+    text-align: center;
+    font-size: 0.9em;
+}
+
+.article-product .seller-name {
+    font-weight: bold;
+    padding-bottom: 15px;
+}
+
+.article-product .seller-contact {
+    padding-bottom: 20px;
+}
+
+.article-product i {
+    margin-right: 10px;
+}
+
+.article-product .bt-primary {
+    border: 1px solid orange;
+    background-color: orange;
+    padding: 5px 20px;
+    border-radius: 30px;
+}
